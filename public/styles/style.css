@@ -32,4 +32,29 @@
 }
 #decorate3{
     font-family: "Permanent Marker";
+    color: #F94C10;
+}
+body{
+    background-color: #D2E9E9;
+}
+header{
+    background-color: #A1CCD1;
+}
+.offcanvas{
+    background-color: #D2E9E9;
+}
+.dropdown-menu{
+    background-color: #A1CCD1;
+}
+.container footer{
+    background-color: #A1CCD1;
+}
+.starter{
+    background-color: #A1CCD1;
+}
+#scroll{
+    background-color: #A1CCD1;
+}
+.list-group{
+    background-color: #A1CCD1 !important;
 }

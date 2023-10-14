@@ -8,12 +8,12 @@ var arr2=[];
 app.use(express.static("public"));
 app.use(bodyparser.urlencoded({extended: true}));
 arr1=[];
-    arr1.push("Finish node.js module in development course");
-    arr1.push("Give one coding contest");
-    arr1.push("Host projects on github by sunday");
+    arr1.push("Finish module in development course");
+    arr1.push("Give coding contest this weekend");
+    arr1.push("Post projects on github by sunday");
 arr2=[];
-    arr2.push("Complete development course by november 1st week");
-    arr2.push("Continue going to the gym");
+    arr2.push("Complete development course");
+    arr2.push("Lookout for internships");
     arr2.push("Apply for driving license.");
 app.get("/",(req,res)=>{
     
