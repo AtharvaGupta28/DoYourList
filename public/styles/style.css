@@ -1,0 +1,35 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    height: 80vh;
+}
+.strike{
+    text-decoration: line-through;
+}
+.weekly-list{
+    padding: 0;
+    height: 60vh;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+.tagline{
+    margin-bottom: 100px;
+}
+#decorate1{
+    background-color: #D988B9;
+    border-radius: 1rem;
+    padding: 5px;
+}
+#decorate2{
+    font-weight: 900;
+}
+#decorate3{
+    font-family: "Permanent Marker";
+}

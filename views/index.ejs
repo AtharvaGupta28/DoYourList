@@ -1,0 +1,15 @@
+<%-include("partials/header.ejs")%>
+      <!--Welcome page-->
+      <!--Content-->
+    <% if(check==0){ %>
+      <%- include("partials/content.ejs")%>
+      <script src="script-content.js"></script>
+    <% }else if(check==1){ %>
+      <%-include("partials/weekly.ejs")%>
+      <script src="script-weekly.js"></script>
+    <% }else if(check==2){ %>
+      <%-include("partials/long.ejs")%>  
+      <script src="script-long.js"></script>
+    <% } %>
+    <!--Footer-->
+<%-include("partials/footer.ejs"); %>
